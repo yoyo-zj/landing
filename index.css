@@ -186,6 +186,7 @@ button{
     border-radius: 4px;
     padding: 4px 24px;
     flex-shrink: 0;
+    align-self: flex-end;
 }
 .call-button:hover{
     background-color: #f9faf8;
