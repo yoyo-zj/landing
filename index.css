@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', serif;
+}
+/* navigaton section */
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    font-weight: auto;
+    color: #e5e7eb;
+    font-size: 18px;
+    gap: 16px;
+    flex-shrink: 0;
+}
+
+.header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 16px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+/* spotlight section */
+.spot-container{
+    background-color: #1f2937 ;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+    gap: 24px;
+}
+.spot-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 400px;
+    gap: 8px;
+}
+.big-img{
+    background-color: #5a616a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    width: 500px;
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 4px 24px;
+
+}
+.spot-main-text{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.spot-sec-text{
+    font-size: 18px;
+    color: #d9dadb;
+}
+
+/* info section */
+.info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 48px;
+}
+.info-header{
+    font-size: 32px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-flow: row wrap;
+}
+/* added wrapper to control spacing between boxes and descriptive text */
+.card-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+    border: solid #3882f6 4px;
+}
+.card-text{
+    display: flex;
+    width: 200px;
+}
+/* qoute section */
+.quote-container{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+}
+.quote-text{
+ font-size: 36px;
+ font-weight: 200;
+ max-width: 800px;
+ font-style: italic;
+ color: #1f2937;
+
+}
+.quote-end{
+
+    align-self: end;
+}
+.quote-wrapper{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+} 
+/* call section */
+.call-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 64px;
+}
+.call-wrapper{
+    background-color: #3882f6;
+    width: 80%;
+    padding: 48px 100px;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.call-text{
+    display: flex; 
+    flex-direction: column;
+    gap: 8px;
+}
+.call-sec{
+  color: #e5e7eb;  
+  font-size: 16px;
+  font-weight: 300;
+}
+.call-main{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.call-button{
+    background-color: #3882f6;
+    color: white;
+    border: white solid 2px;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 4px 24px;
+    flex-shrink: 0;
+}
+.call-button:hover{
+    background-color: #f9faf8;
+    color: #3882f6;
+    border: #3882f6 solid 2px;
+}
+/* footer */
+.footer{
+    background-color: #1f2937;
+    text-align: center;
+    color: #e5e7eb;
+    font-weight: 200;
+    font-size: 18px;
+    padding: 24px;
+}
